@@ -13,6 +13,7 @@ nav {
 }
 
 html {
+  font-size: 16px;
 }
 
 /* Task 1: Give
@@ -50,27 +51,48 @@ Task 5: Give
 .section {
   background-color: #140d0b;
   color: #fef6e4;
+
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
 }
 
 .bird-photo {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .side-section {
+  width: 50%;
 }
 
 .about {
   margin: 0 auto;
   width: fit-content;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .author {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+
+  border-radius: 50%;
 }
 
 .about h2 {
   font-family: "Playfair Display", serif;
+  font-size: 5vw;
 }
 
 .about p {
+  font-size: 1rem;
 }
 
 .about button {
@@ -78,5 +100,8 @@ Task 5: Give
   background-color: #feb51c;
   color: #140d0b;
   font-weight: bold;
+
+  padding: 16px 24px;
+  margin: 0 auto;
 }
 
